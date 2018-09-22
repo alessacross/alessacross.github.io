@@ -45,3 +45,17 @@ ul.posts li {
 #title_name {
     color: #F54323;
 }
+
+.intro_paragraph {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.wrapper {
+  padding: 20px;
+  background: #eaeaea;
+  max-width: 400px;
+  margin: 50px auto;
+}
